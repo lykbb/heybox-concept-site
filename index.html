@@ -14,12 +14,7 @@
 
     <header class="site-header" id="site-header">
       <a class="brand" href="#home" aria-label="小黑盒，返回首页">
-        <span class="brand-symbol" aria-hidden="true">
-          <svg viewBox="0 0 40 40" fill="none">
-            <path d="M7 12.5 18 6v12l4 2.5V6l11 6.5v15L22 34V22l-4-2.5V34L7 27.5v-15Z" fill="currentColor" />
-          </svg>
-        </span>
-        <span class="brand-type"><strong>小黑盒</strong><small>HEYBOX</small></span>
+        <img class="brand-logo" src="./assets/heybox-official-logo.svg" alt="" width="140" height="61" />
       </a>
       <span class="header-note">A WORLD FOR PLAYERS <i></i> CONCEPT / 2026</span>
       <a class="header-link" href="#get">立即探索 <span aria-hidden="true">↗</span></a>
@@ -48,7 +43,7 @@
     <main id="main">
       <section id="home" class="hero page-section" aria-label="首页">
         <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
-          <source src="./assets/hero-temp.mp4" type="video/mp4" />
+          <source src="./assets/hero-gameplay-web.mp4" type="video/mp4" />
         </video>
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
@@ -82,6 +77,7 @@
 
           <div class="card-deck" aria-label="产品体验卡片">
             <article class="feature-card feature-data" data-card="0" aria-label="第一张卡片，游戏数据">
+              <div class="feature-card-surface">
               <div class="feature-copy">
                 <div class="feature-meta"><span>01 / GAME DATA</span><span>探索你的游戏生涯</span></div>
                 <div class="feature-copy-main">
@@ -92,28 +88,25 @@
                 </div>
                 <span class="feature-foot">HEYBOX / DATA</span>
               </div>
-              <div class="feature-visual data-visual" aria-hidden="true">
+              <div class="feature-visual data-visual">
                 <div class="dashboard-window">
-                  <div class="dashboard-top"><span class="window-brand">HEYBOX<span> / DATA</span></span><span class="window-dots"><i></i><i></i><i></i></span></div>
-                  <div class="dashboard-body">
-                    <div class="dashboard-sidebar"><span class="side-square"></span><i></i><i></i><i></i><i></i><span class="side-square bottom"></span></div>
-                    <div class="dashboard-content">
-                      <div class="dash-breadcrumb">PLAYER SPACE <span>/</span> OVERVIEW</div>
-                      <div class="dash-intro"><span>YOUR GAME<br />UNIVERSE</span><div class="dash-avatar">P</div></div>
-                      <div class="dash-tabs"><b>总览</b><span>游戏资产</span><span>战绩</span><span>收藏</span></div>
-                      <div class="dash-main">
-                        <div class="dash-chart"><small>PLAY HISTORY <span>↗</span></small><svg viewBox="0 0 360 135" preserveAspectRatio="none"><defs><linearGradient id="lineFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#b9f27d" stop-opacity=".35"/><stop offset="1" stop-color="#b9f27d" stop-opacity="0"/></linearGradient></defs><path d="M0 116 34 104 69 108 107 72 145 89 188 57 225 66 267 29 302 43 360 9V135H0Z" fill="url(#lineFill)"/><path d="M0 116 34 104 69 108 107 72 145 89 188 57 225 66 267 29 302 43 360 9" fill="none" stroke="#c8f89c" stroke-width="3"/></svg></div>
-                        <div class="dash-stat"><small>PLAYER ID</small><strong>∞</strong><span>更多旅程<br />等待解锁</span></div>
-                      </div>
-                      <div class="dash-list"><div><i></i><span>最近游玩</span><b>CONTINUE</b></div><div><i></i><span>游戏收藏</span><b>EXPLORE</b></div></div>
-                    </div>
+                  <div class="dashboard-top"><span class="window-brand">HEYBOX<span> / ACHIEVEMENTS</span></span><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+                  <div class="data-product-shot"><img src="./assets/heybox-achievements.png" alt="小黑盒我的成就页面，展示游戏成就进度与已解锁成就" loading="lazy" /></div>
+                  <div class="data-achievement-detail">
+                    <small>我的成就 / GAME RECORD</small>
+                    <strong>2,085 <span>/ 16,335</span></strong>
+                    <p>游戏里的每一步，<br />都有记录。</p>
+                    <div class="data-achievement-progress"><i></i></div>
+                    <span class="data-achievement-caption">成就进度 12.8%</span>
                   </div>
                 </div>
-                <div class="floating-data-note"><span class="signal-dot"></span> YOUR STORY IN NUMBERS</div>
+                <div class="floating-data-note"><span class="signal-dot"></span> 来自小黑盒实际页面</div>
+              </div>
               </div>
             </article>
 
             <article class="feature-card feature-speed" data-card="1" aria-label="第二张卡片，游戏加速">
+              <div class="feature-card-surface">
               <div class="feature-copy">
                 <div class="feature-meta"><span>02 / GAME BOOST</span><span>小黑盒系列产品</span></div>
                 <div class="feature-copy-main">
@@ -124,16 +117,16 @@
                 </div>
                 <span class="feature-foot">HEYBOX / ACCELERATOR</span>
               </div>
-              <div class="feature-visual speed-visual" aria-hidden="true">
+              <div class="feature-visual speed-visual">
                 <div class="speed-orbit speed-orbit-one"></div><div class="speed-orbit speed-orbit-two"></div><div class="speed-orbit speed-orbit-three"></div>
-                <svg class="speed-path" viewBox="0 0 610 430" preserveAspectRatio="none"><path d="M20 300 C130 300 134 120 254 190 S390 370 590 90" fill="none" stroke="rgba(172,195,255,.16)" stroke-width="48"/><path d="M20 300 C130 300 134 120 254 190 S390 370 590 90" fill="none" stroke="#b6c5ff" stroke-width="2" stroke-dasharray="5 8"/><circle cx="20" cy="300" r="7" fill="#d4fb6b"/><circle cx="254" cy="190" r="7" fill="#d4fb6b"/><circle cx="590" cy="90" r="7" fill="#d4fb6b"/></svg>
-                <div class="speed-core"><span>CONNECTED</span><strong>PLAY<br />ON.</strong><small>GAME MODE / ACTIVE</small></div>
-                <div class="route-chip route-chip-a"><span>01</span> PLAYER</div><div class="route-chip route-chip-b"><span>02</span> ROUTE</div><div class="route-chip route-chip-c"><span>03</span> GAME</div>
-                <div class="speed-bottom-line">A CLEARER PATH TO PLAY <span>↗</span></div>
+                <div class="accelerator-product-window"><img src="./assets/accelerator-interface.png" alt="小黑盒加速器官网展示的桌面端界面，包含游戏加速、延迟和线路信息" loading="lazy" /></div>
+                <div class="speed-bottom-line">小黑盒加速器 · 官网界面示例 <span>↗</span></div>
+              </div>
               </div>
             </article>
 
             <article class="feature-card feature-sale" data-card="2" aria-label="第三张卡片，商城大促">
+              <div class="feature-card-surface">
               <div class="feature-copy">
                 <div class="feature-meta"><span>03 / GAME DEALS</span><span>发现下一款心动游戏</span></div>
                 <div class="feature-copy-main">
@@ -144,16 +137,12 @@
                 </div>
                 <span class="feature-foot">HEYBOX / STORE</span>
               </div>
-              <div class="feature-visual sale-visual" aria-hidden="true">
+              <div class="feature-visual sale-visual">
                 <div class="sale-head"><span>HEYBOX GAME STORE</span><span>DISCOVER WHAT'S NEXT ↗</span></div>
-                <div class="sale-giant">SALE<span>*</span></div>
-                <div class="sale-ticket ticket-one"><small>LIMITED EVENT</small><strong>好游戏<br />好时候</strong><span>PLAY MORE ↗</span></div>
-                <div class="sale-storefront">
-                  <div class="storefront-heading"><span>精选游戏</span><small>VIEW ALL ↗</small></div>
-                  <div class="storefront-item"><i class="storefront-cover cover-one"></i><span><strong>值得关注</strong><small>活动专区 · 热门作品</small></span><b>↗</b></div>
-                  <div class="storefront-item"><i class="storefront-cover cover-two"></i><span><strong>发现新作</strong><small>更多惊喜 · 持续更新</small></span><b>↗</b></div>
-                </div>
-                <div class="sale-bottom"><span>优惠速览</span><i></i><span>限时发现</span><i></i><span>收藏关注</span></div>
+                <div class="sale-giant" aria-hidden="true">SALE<span>*</span></div>
+                <div class="sale-campaign"><img src="./assets/heybox-deals.png" alt="小黑盒热点页面展示的万代厂商促销活动画面" loading="lazy" /></div>
+                <div class="sale-campaign-note"><small>小黑盒热点 / 活动画面</small><strong>万代厂商促销</strong><span>活动信息以官方实时页面为准 ↗</span></div>
+              </div>
               </div>
             </article>
 
@@ -216,8 +205,14 @@
           <h2 id="get-heading">下一局，<br /><em>一起玩。</em></h2>
           <p class="get-lead">游戏还在继续。你的主场，等你入场。</p>
           <div class="get-actions">
-            <a class="primary-action" href="https://xiaoheihe.cn/" target="_blank" rel="noopener noreferrer">前往小黑盒官网 <span aria-hidden="true">↗</span></a>
-            <a class="secondary-action" href="https://apps.apple.com/cn/app/id1244505010" target="_blank" rel="noopener noreferrer">App Store <span aria-hidden="true">↗</span></a>
+            <a class="primary-action" href="https://xiaoheihe.cn/" target="_blank" rel="noopener noreferrer">
+              <span class="action-copy"><small>01 / OFFICIAL SITE</small><strong>前往小黑盒官网</strong></span>
+              <span class="action-arrow" aria-hidden="true"></span>
+            </a>
+            <a class="secondary-action" href="https://apps.apple.com/cn/app/id1244505010" target="_blank" rel="noopener noreferrer">
+              <span class="action-copy"><small>02 / GET THE APP</small><strong>App Store</strong></span>
+              <span class="action-arrow" aria-hidden="true"></span>
+            </a>
           </div>
           <div class="get-contact"><span>CONTACT / 联系方式</span><strong>即将补充</strong><small>此处预留正式联系入口</small></div>
         </div>
