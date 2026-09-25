@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0d12" />
+    <meta name="description" content="小黑盒桌面宣传站概念设计：玩家主场，探索每一种热爱。" />
+    <title>玩家主场 | 小黑盒概念站</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="小黑盒，返回首页">
+        <span class="brand-symbol" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M7 12.5 18 6v12l4 2.5V6l11 6.5v15L22 34V22l-4-2.5V34L7 27.5v-15Z" fill="currentColor" />
+          </svg>
+        </span>
+        <span class="brand-type"><strong>小黑盒</strong><small>HEYBOX</small></span>
+      </a>
+      <span class="header-note">A WORLD FOR PLAYERS <i></i> CONCEPT / 2026</span>
+      <a class="header-link" href="#get">立即探索 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <nav class="side-index" aria-label="页面大纲">
+      <span class="side-index-title">INDEX</span>
+      <a href="#home" class="side-index-item is-active" data-target="home" aria-label="01 首页" aria-current="location">
+        <span class="side-index-name">首页</span><span class="side-index-track"></span><span class="side-index-number">01</span>
+      </a>
+      <a href="#experience" class="side-index-item" data-target="experience" aria-label="02 产品体验">
+        <span class="side-index-name">产品体验</span><span class="side-index-track"></span><span class="side-index-number">02</span>
+      </a>
+      <a href="#creations" class="side-index-item" data-target="creations" aria-label="03 玩家创作">
+        <span class="side-index-name">玩家创作</span><span class="side-index-track"></span><span class="side-index-number">03</span>
+      </a>
+      <a href="#community" class="side-index-item" data-target="community" aria-label="04 玩家社区">
+        <span class="side-index-name">玩家社区</span><span class="side-index-track"></span><span class="side-index-number">04</span>
+      </a>
+      <a href="#get" class="side-index-item" data-target="get" aria-label="05 获取方式">
+        <span class="side-index-name">获取方式</span><span class="side-index-track"></span><span class="side-index-number">05</span>
+      </a>
+      <span class="side-index-footer">SCROLL TO EXPLORE</span>
+    </nav>
+
+    <main id="main">
+      <section id="home" class="hero page-section" aria-label="首页">
+        <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+          <source src="./assets/hero-temp.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> HEYBOX <span class="eyebrow-divider">/</span> FOR THE LOVE OF PLAY</p>
+          <h1 class="hero-title" aria-label="玩家主场">
+            <span class="hero-title-line"><small aria-hidden="true">01 / PLAYER</small><span class="hero-title-glyph" data-focus-word><span class="hero-title-layout">玩家</span></span></span>
+            <span class="hero-title-line hero-title-line-last"><small aria-hidden="true">02 / WORLD</small><span class="hero-title-glyph" data-focus-word><span class="hero-title-layout">主场</span></span><span class="title-period">.</span></span>
+            <span class="hero-focus-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          </h1>
+          <p class="hero-statement">每一场游戏，都值得全情投入。</p>
+          <div class="hero-tags" aria-label="玩家主场标签">
+            <span>PLAYER FIRST</span><span>热爱不设限</span><span>NEXT LEVEL</span>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-bottom-note"><span class="signal-dot"></span> ENTER THE GAME UNIVERSE</div>
+          <a class="scroll-cue" href="#experience" aria-label="向下探索产品体验"><span>向下探索</span><span class="scroll-cue-arrow" aria-hidden="true">↓</span></a>
+          <span class="hero-bottom-index">01 <span>/</span> 05</span>
+        </div>
+      </section>
+
+      <section id="experience" class="experience page-section" aria-labelledby="experience-heading">
+        <div class="experience-stage">
+          <div class="experience-heading-wrap">
+            <p class="eyebrow"><span class="eyebrow-line"></span> 02 / PRODUCT EXPERIENCE</p>
+            <h2 id="experience-heading">不止于一局<span>.</span></h2>
+            <p>让热爱，贯穿每一次开始与继续。</p>
+          </div>
+          <div class="experience-count" aria-live="off"><strong id="active-card-number">01</strong><span>/ 03</span></div>
+
+          <div class="card-deck" aria-label="产品体验卡片">
+            <article class="feature-card feature-data" data-card="0" aria-label="第一张卡片，游戏数据">
+              <div class="feature-copy">
+                <div class="feature-meta"><span>01 / GAME DATA</span><span>探索你的游戏生涯</span></div>
+                <div class="feature-copy-main">
+                  <p class="feature-kicker">ONE PLAYER. EVERY JOURNEY.</p>
+                  <h3>每一局，<br />都有迹可循<span>.</span></h3>
+                  <p class="feature-description">从游戏资料到玩家战绩，把属于你的游戏轨迹，放在同一视野里。</p>
+                  <div class="feature-chips"><span>游戏资料</span><span>战绩查询</span><span>生涯记录</span></div>
+                </div>
+                <span class="feature-foot">HEYBOX / DATA</span>
+              </div>
+              <div class="feature-visual data-visual" aria-hidden="true">
+                <div class="dashboard-window">
+                  <div class="dashboard-top"><span class="window-brand">HEYBOX<span> / DATA</span></span><span class="window-dots"><i></i><i></i><i></i></span></div>
+                  <div class="dashboard-body">
+                    <div class="dashboard-sidebar"><span class="side-square"></span><i></i><i></i><i></i><i></i><span class="side-square bottom"></span></div>
+                    <div class="dashboard-content">
+                      <div class="dash-breadcrumb">PLAYER SPACE <span>/</span> OVERVIEW</div>
+                      <div class="dash-intro"><span>YOUR GAME<br />UNIVERSE</span><div class="dash-avatar">P</div></div>
+                      <div class="dash-tabs"><b>总览</b><span>游戏资产</span><span>战绩</span><span>收藏</span></div>
+                      <div class="dash-main">
+                        <div class="dash-chart"><small>PLAY HISTORY <span>↗</span></small><svg viewBox="0 0 360 135" preserveAspectRatio="none"><defs><linearGradient id="lineFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#b9f27d" stop-opacity=".35"/><stop offset="1" stop-color="#b9f27d" stop-opacity="0"/></linearGradient></defs><path d="M0 116 34 104 69 108 107 72 145 89 188 57 225 66 267 29 302 43 360 9V135H0Z" fill="url(#lineFill)"/><path d="M0 116 34 104 69 108 107 72 145 89 188 57 225 66 267 29 302 43 360 9" fill="none" stroke="#c8f89c" stroke-width="3"/></svg></div>
+                        <div class="dash-stat"><small>PLAYER ID</small><strong>∞</strong><span>更多旅程<br />等待解锁</span></div>
+                      </div>
+                      <div class="dash-list"><div><i></i><span>最近游玩</span><b>CONTINUE</b></div><div><i></i><span>游戏收藏</span><b>EXPLORE</b></div></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-data-note"><span class="signal-dot"></span> YOUR STORY IN NUMBERS</div>
+              </div>
+            </article>
+
+            <article class="feature-card feature-speed" data-card="1" aria-label="第二张卡片，游戏加速">
+              <div class="feature-copy">
+                <div class="feature-meta"><span>02 / GAME BOOST</span><span>小黑盒系列产品</span></div>
+                <div class="feature-copy-main">
+                  <p class="feature-kicker">KEEP THE MOMENT GOING.</p>
+                  <h3>好状态，<br />不该被打断<span>.</span></h3>
+                  <p class="feature-description">连接每一个关键操作，让玩家更专注于眼前的对局。</p>
+                  <div class="feature-chips"><span>游戏加速</span><span>线路选择</span><span>稳定连接</span></div>
+                </div>
+                <span class="feature-foot">HEYBOX / ACCELERATOR</span>
+              </div>
+              <div class="feature-visual speed-visual" aria-hidden="true">
+                <div class="speed-orbit speed-orbit-one"></div><div class="speed-orbit speed-orbit-two"></div><div class="speed-orbit speed-orbit-three"></div>
+                <svg class="speed-path" viewBox="0 0 610 430" preserveAspectRatio="none"><path d="M20 300 C130 300 134 120 254 190 S390 370 590 90" fill="none" stroke="rgba(172,195,255,.16)" stroke-width="48"/><path d="M20 300 C130 300 134 120 254 190 S390 370 590 90" fill="none" stroke="#b6c5ff" stroke-width="2" stroke-dasharray="5 8"/><circle cx="20" cy="300" r="7" fill="#d4fb6b"/><circle cx="254" cy="190" r="7" fill="#d4fb6b"/><circle cx="590" cy="90" r="7" fill="#d4fb6b"/></svg>
+                <div class="speed-core"><span>CONNECTED</span><strong>PLAY<br />ON.</strong><small>GAME MODE / ACTIVE</small></div>
+                <div class="route-chip route-chip-a"><span>01</span> PLAYER</div><div class="route-chip route-chip-b"><span>02</span> ROUTE</div><div class="route-chip route-chip-c"><span>03</span> GAME</div>
+                <div class="speed-bottom-line">A CLEARER PATH TO PLAY <span>↗</span></div>
+              </div>
+            </article>
+
+            <article class="feature-card feature-sale" data-card="2" aria-label="第三张卡片，商城大促">
+              <div class="feature-copy">
+                <div class="feature-meta"><span>03 / GAME DEALS</span><span>发现下一款心动游戏</span></div>
+                <div class="feature-copy-main">
+                  <p class="feature-kicker">GOOD GAMES. BETTER MOMENTS.</p>
+                  <h3>下一款热爱，<br />刚好遇见<span>.</span></h3>
+                  <p class="feature-description">浏览游戏优惠与限时活动，让每一次心动，都更容易付诸行动。</p>
+                  <div class="feature-chips"><span>游戏优惠</span><span>限免情报</span><span>心愿清单</span></div>
+                </div>
+                <span class="feature-foot">HEYBOX / STORE</span>
+              </div>
+              <div class="feature-visual sale-visual" aria-hidden="true">
+                <div class="sale-head"><span>HEYBOX GAME STORE</span><span>DISCOVER WHAT'S NEXT ↗</span></div>
+                <div class="sale-giant">SALE<span>*</span></div>
+                <div class="sale-ticket ticket-one"><small>LIMITED EVENT</small><strong>好游戏<br />好时候</strong><span>PLAY MORE ↗</span></div>
+                <div class="sale-storefront">
+                  <div class="storefront-heading"><span>精选游戏</span><small>VIEW ALL ↗</small></div>
+                  <div class="storefront-item"><i class="storefront-cover cover-one"></i><span><strong>值得关注</strong><small>活动专区 · 热门作品</small></span><b>↗</b></div>
+                  <div class="storefront-item"><i class="storefront-cover cover-two"></i><span><strong>发现新作</strong><small>更多惊喜 · 持续更新</small></span><b>↗</b></div>
+                </div>
+                <div class="sale-bottom"><span>优惠速览</span><i></i><span>限时发现</span><i></i><span>收藏关注</span></div>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="experience-bottom"><span>SCROLL TO UNFOLD</span><div class="experience-progress" aria-hidden="true"><i id="experience-progress-fill"></i></div><span>03 STORIES / ONE WORLD</span></div>
+        </div>
+      </section>
+
+      <section id="creations" class="creations page-section" aria-labelledby="creations-heading">
+        <div class="creations-stage">
+          <div class="game-logo-field" aria-hidden="true">
+            <div class="game-logo" style="--x: 10%; --y: 25%; --size: 1.02"><div class="game-logo-frame"><img src="./assets/game-logos/730-icon.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 30%; --y: 20%; --size: .94"><div class="game-logo-frame"><img src="./assets/game-logos/570-icon.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 52%; --y: 18%; --size: .9"><div class="game-logo-frame"><img src="./assets/game-logos/1245620-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 77%; --y: 20%; --size: 1.04"><div class="game-logo-frame"><img src="./assets/game-logos/1086940-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 92%; --y: 38%; --size: .97"><div class="game-logo-frame"><img src="./assets/game-logos/413150-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 89%; --y: 73%; --size: 1.03"><div class="game-logo-frame"><img src="./assets/game-logos/1623730-icon.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 71%; --y: 88%; --size: .95"><div class="game-logo-frame"><img src="./assets/game-logos/1172470-icon.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 45%; --y: 89%; --size: 1.01"><div class="game-logo-frame"><img src="./assets/game-logos/578080-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 19%; --y: 84%; --size: .97"><div class="game-logo-frame"><img src="./assets/game-logos/1091500-icon.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 7%; --y: 58%; --size: 1.05"><div class="game-logo-frame"><img src="./assets/game-logos/1145360-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 24%; --y: 37%; --size: .88"><div class="game-logo-frame"><img src="./assets/game-logos/105600-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 91%; --y: 57%; --size: .9"><div class="game-logo-frame"><img src="./assets/game-logos/367520-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 5%; --y: 77%; --size: .89"><div class="game-logo-frame"><img src="./assets/game-logos/945360-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 32%; --y: 89%; --size: .93"><div class="game-logo-frame"><img src="./assets/game-logos/230410-cover.jpg" alt="" /></div></div>
+            <div class="game-logo" style="--x: 59%; --y: 89%; --size: .91"><div class="game-logo-frame"><img src="./assets/game-logos/275850-cover.jpg" alt="" /></div></div>
+          </div>
+          <div class="creations-copy">
+            <p class="creations-kicker">03 / PLAYER CREATIONS</p>
+            <h2 id="creations-heading">
+              <span class="creations-line">玩法之外，</span>
+              <span class="creations-line">还有更多可能。</span>
+              <span class="creations-line">地图、攻略与 MOD 灵感，</span>
+              <span class="creations-line">由玩家继续创造。</span>
+            </h2>
+          </div>
+          <span class="creations-index">03 / 05</span>
+        </div>
+      </section>
+
+      <section id="community" class="community page-section" aria-labelledby="community-heading">
+        <div class="community-inner">
+          <div class="community-top"><p class="eyebrow"><span class="eyebrow-line"></span> 04 / THE COMMUNITY</p><span>MADE BY PLAYERS, FOR PLAYERS.</span></div>
+          <div class="community-intro"><h2 id="community-heading">热爱，<br /><em>总有人懂。</em></h2><p>每个玩家都有值得被听见的故事。<br />这里先为它们留一个位置。</p></div>
+          <div class="community-grid" aria-label="玩家社区内容方向">
+            <div class="community-cell cell-review"><span>01 / REVIEW</span><strong>评测</strong><small>认真聊聊，一款游戏为何值得玩。</small><b aria-hidden="true">↗</b></div>
+            <div class="community-cell cell-news"><span>02 / NEWS</span><strong>资讯</strong><small>追上你在意的每一个新消息。</small><b aria-hidden="true">↗</b></div>
+            <div class="community-cell cell-guide"><span>03 / GUIDE</span><strong>攻略工具</strong><small>从问题出发，找到下一步答案。</small><b aria-hidden="true">↗</b></div>
+            <div class="community-cell cell-share"><span>04 / SHARE</span><strong>玩家分享</strong><small>把自己的精彩，交给同样热爱的人。</small><b aria-hidden="true">↗</b></div>
+          </div>
+          <p class="community-placeholder">此区为首版内容方向展示；具体社区构图待下一轮确定。</p>
+        </div>
+      </section>
+
+      <section id="get" class="get-section page-section" aria-labelledby="get-heading">
+        <div class="get-ambient" aria-hidden="true"></div>
+        <div class="get-inner">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 05 / START HERE</p>
+          <h2 id="get-heading">下一局，<br /><em>一起玩。</em></h2>
+          <p class="get-lead">游戏还在继续。你的主场，等你入场。</p>
+          <div class="get-actions">
+            <a class="primary-action" href="https://xiaoheihe.cn/" target="_blank" rel="noopener noreferrer">前往小黑盒官网 <span aria-hidden="true">↗</span></a>
+            <a class="secondary-action" href="https://apps.apple.com/cn/app/id1244505010" target="_blank" rel="noopener noreferrer">App Store <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="get-contact"><span>CONTACT / 联系方式</span><strong>即将补充</strong><small>此处预留正式联系入口</small></div>
+        </div>
+        <footer class="site-footer"><span>HEYBOX <i></i> PLAYER FIRST</span><span>非官方概念设计 · 素材与说明见项目文档</span><a href="#home">BACK TO TOP ↑</a></footer>
+      </section>
+    </main>
+  </body>
+</html>
